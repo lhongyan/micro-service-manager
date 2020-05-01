@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lihongyan.tech</groupId>
-    <artifactId>micro-service-manager-backend</artifactId>
+    <artifactId>micro-service-manager-eureka</artifactId>
     <version>0.0.1</version>
-    <name>backend</name>
-    <description>backend</description>
+    <name>eureka</name>
+    <description>eureka</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -22,7 +22,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
 
         <dependency>

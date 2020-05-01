@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lihongyan.tech</groupId>
-    <artifactId>micro-service-manager-backend</artifactId>
+    <artifactId>micro-service-manager-service</artifactId>
     <version>0.0.1</version>
-    <name>backend</name>
-    <description>backend</description>
+    <name>service</name>
+    <description>service</description>
 
     <properties>
         <java.version>1.8</java.version>
